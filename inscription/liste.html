@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./liste.CSS">
+</head>
+<body>
+   <div class="container">
+    <div class="entete">
+        <input type="text" name="Enter task" id="Enter task" placeholder="Enter task">
+        <span class="addBtn">+</span>
+    </div>
+    <ul class="monUL">
+        <li><input type="checkbox" class="chec">Answer your email</li>
+        <li><input type="checkbox" class="chec">Send mom a birthday card</li>
+        <li><input type="checkbox" class="chec">Buy more post its</li>
+        <li><input type="checkbox" class="chec">Wake up in morning</li>
+    </ul>
+   </div>
+   <script>
+
+        //Récupérer le bouton
+        let bouton = document.getElementsByClassName("addBnt");
+        //Récupérer le nom de la tache 
+        const nomtache = document.getElementById("Enter task");value;
+
+        bouton.addEventListener(
+            'click',
+            function(){
+            //créer un élément de cases à cocher
+            const checkbox = document.createElement("input");
+            checkbox.type = "checkbox";
+            //ajouter une classe
+            checkbox.classlist.add("chec");
+
+            //créer une étiquette pour la case à cocher
+            const label = document.createElement("label");
+            //Label portant la tache ajoutée
+            label.textContent = nomTache;
+
+            //Ajouter la case à cocher et l'étiquette à un conteneur
+            const conteneur = document.getElementsByClassName("monUL");
+
+            conteneur.appendChild(checkbox);
+            conteneur.appendChild(label);
+            }
+        );
+   </script>
+</body>
+</html>

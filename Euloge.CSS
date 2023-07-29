@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 500px;
+    margin: auto;
+    background-color: #ddd;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 480px;
+    margin-top: 50px;
+}
+
+header{
+    background-color: blue;
+    width: 450px;
+    height: 60px;
+    margin-top: 20px;
+    padding-left: 200PX;
+    padding-top: 15px;
+    color: white;
+}
+
+.Menu{
+    background-color: rgb(153, 233, 153);
+    width: 450px;
+    height: 30px;
+    margin-top: 7px;
+    padding-left: 200px;
+    padding-top: 5px;
+}
+
+.corps{
+    width: 500px;
+    height: 300px;
+    display: flex;
+}
+
+nav{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    margin-left: 25px;
+    margin-top: 7px;
+}
+
+
+ul{
+    list-style: none;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(235, 226, 243);
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+ul li{
+    width: 250px;
+    height: 84px;
+    border-bottom: solid 5px blue;
+    padding-left: 40px;
+    padding-top: 30px;
+    
+}
+
+.Sidebar{
+    background-color: blue;
+    width: 130px;
+    margin-top: 7px;
+    margin-bottom: -7px;
+    margin-left: 20px;
+    padding-top: 130px;
+    padding-left: 20px;
+    
+}
+
+footer{
+    background-color: blue;
+    margin-top: 15px;
+    width: 450px;  
+    height: 30px;
+    padding-left: 200px;
+    padding-top: 5px;
+}      
+
+
+
